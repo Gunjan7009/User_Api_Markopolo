@@ -1,0 +1,49 @@
+/* UserTable.css */
+
+.table {
+    width: 1000px;
+    border-collapse: collapse;
+  }
+  
+  .header-row {
+    display: flex;
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .header-cell {
+    flex: 1;
+    padding: 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  
+  .body {
+    height: 800px;
+    overflow: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .row-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .virtual-row {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 12px;
+    border-right: 1px solid #eee;
+  }
+  
+  .cell:last-child {
+    border-right: none;
+  }
+  

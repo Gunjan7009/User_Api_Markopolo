@@ -1,0 +1,40 @@
+/* App.css */
+
+.app-container {
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.controls {
+  width:800px;
+  margin-bottom: 16px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.input-field,
+.select-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.select-field {
+  max-width: 200px;
+}
+
+.message {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+}
+
+.loading {
+  color: #555;
+}
